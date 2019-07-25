@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">
+        jdbc:mysql://rm-8vbr53q7677c1iev11o.mysql.zhangbei.rds.aliyuncs.com:3306/everytimeeverycar
+    </property>
+    <property name="connection.driver_class"></property>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Account"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Append"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Branch"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Car"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Cash"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Consume"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Earnings"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Enterprise"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Equipment"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Grade"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Indent"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Invoice"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Lease"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Member"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Recharge"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Service"/>
+      <mapping class="cn.cqmxcx.everytimeeverycar.entities.Violate"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/everytimeeverycar-provider-information/everytimeeverycar-provider-information.iml" filepath="$PROJECT_DIR$/everytimeeverycar-provider-information/everytimeeverycar-provider-information.iml" />
+      <module fileurl="file://$PROJECT_DIR$/everytimeeverycar-tool-entities/everytimeeverycar-tool-entities.iml" filepath="$PROJECT_DIR$/everytimeeverycar-tool-entities/everytimeeverycar-tool-entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/everytimeeverycar-tool-model/everytimeeverycar-tool-model.iml" filepath="$PROJECT_DIR$/everytimeeverycar-tool-model/everytimeeverycar-tool-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/everytimeeverycarserver.iml" filepath="$PROJECT_DIR$/everytimeeverycarserver.iml" />
+    </modules>
+  </component>
+</project>

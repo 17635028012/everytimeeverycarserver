@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="everytimeeverycar-tool-model" />
+        <module name="everytimeeverycar-tool-entities" />
+        <module name="everytimeeverycar-provider-information" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="everytimeeverycar-provider-information" target="1.8" />
+      <module name="everytimeeverycar-tool-entities" target="1.8" />
+      <module name="everytimeeverycar-tool-model" target="1.8" />
+      <module name="everytimeeverycarserver" target="1.8" />
+      <module name="server-provider-member" target="1.8" />
+      <module name="server-tool-entites" target="1.8" />
+      <module name="server-tool-entities" target="1.8" />
+      <module name="server-tool-model" target="1.8" />
+      <module name="server-tool-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="everytimeeverycar-provider-information" options="-parameters" />
+      <module name="everytimeeverycar-tool-entities" options="-parameters" />
+      <module name="everytimeeverycar-tool-model" options="-parameters" />
+      <module name="everytimeeverycarserver" options="-parameters" />
+      <module name="server-provider-member" options="-parameters" />
+      <module name="server-tool-entites" options="-parameters" />
+      <module name="server-tool-entities" options="-parameters" />
+      <module name="server-tool-model" options="-parameters" />
+      <module name="server-tool-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

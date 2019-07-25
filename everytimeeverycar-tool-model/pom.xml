@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>server</artifactId>
+        <groupId>cn.cqmxcx.everytimeeverycarserver</groupId>
+        <version>1.0.0.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.cqmxcx.everytimeeverycar</groupId>
+    <artifactId>everytimeeverycar-tool-model</artifactId>
+    <version>1.0.0.RELEASE</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sinosoft</groupId>
+            <artifactId>siava</artifactId>
+            <version>1.0.16.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>
